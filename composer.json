@@ -1,0 +1,8 @@
+{
+  "require": {
+    "robmorgan/phinx": "^0.12.13"
+  },
+  "scripts": {
+    "install_packages": "composer install --ignore-platform-reqs"
+  }
+}

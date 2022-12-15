@@ -1,0 +1,41 @@
+/*this form is displayed when a user clicks on a double sided card*/
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+/*bottom right button that takes user to top of page*/
+#top {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+#top-button {
+    color: antiquewhite;
+}
+
+.magic-card-double {
+    cursor: pointer;
+}
+
+/*page container and footer are for displaying credits.*/
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+/*footer is below all content div and always on bottom of page*/
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,4 @@
+config/dbinfo.php
+composer.lock
+phinx.php
+.idea
